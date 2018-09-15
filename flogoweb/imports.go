@@ -1,9 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
 	// Flogo action
 	_ "github.com/TIBCOSoftware/flogo-contrib/action/flow"
-
 	// Activities from https://github.com/TIBCOSoftware/flogo-contrib
 	_ "github.com/TIBCOSoftware/flogo-contrib/activity/actreply"
 	_ "github.com/TIBCOSoftware/flogo-contrib/activity/actreturn"
@@ -63,6 +67,6 @@ import (
 	_ "github.com/retgits/flogo-components/activity/writetofile"
 
 	// Triggers from https://github.com/retgits/flogo-components
-	_ "github.com/retgits/flogo-components/trigger/pubnubsubscriber"
 	_ "github.com/retgits/flogo-components/trigger/grpctrigger"
+	_ "github.com/retgits/flogo-components/trigger/pubnubsubscriber"
 )
